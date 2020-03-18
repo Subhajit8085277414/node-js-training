@@ -9,7 +9,7 @@ mongo.connect(function (err) {
     console.log(err);
   }
 
-  app.listen(3001, function () {
-    console.log("server running on port 3001");
+  app.listen(3003, function () {
+    console.log("server running on port 3003");
   })
 })
